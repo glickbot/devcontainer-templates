@@ -1,6 +1,6 @@
 {
 	"id": "esp-idf",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"name": "ESP-IDF",
 	"description": "Esp-IDF Develop Container",
 	"documentationURL": "https://github.com/johnluicn/devcontainer-templates/tree/main/src/esp-idf",
@@ -11,9 +11,20 @@
 			"type": "string",
 			"description": "ESP-IDF version:",
 			"proposals": [
-				"5.2.0"
+				"latest", 
+				"release-v5.4", 
+				"release-v5.3", 
+				"release-v5.2", 
+				"release-v5.1", 
+				"release-v5.0", 
+				"release-v4.4", 
+				"release-v4.3", 
+				"release-v4.2", 
+				"release-v4.1", 
+				"release-v4.0",
+				"release-v3.3"
 			],
-			"default": "5.2.0"
+			"default": "latest"
 		}
 	},
 	"platforms": [
