@@ -11,7 +11,8 @@
 			"type": "string",
 			"description": "ESP-IDF version:",
 			"proposals": [
-				"latest", 
+				"latest",
+				"release-v5.5",
 				"release-v5.4", 
 				"release-v5.3", 
 				"release-v5.2", 
